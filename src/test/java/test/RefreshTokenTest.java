@@ -10,7 +10,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 public class RefreshTokenTest {
     @Test
-    public void successfulRefreshRequest() throws InterruptedException {
+    public void successfulRefreshRequest() {
 
 
         RegisterResponse registerResponse = Helper.userRegistrationFullResponse();
